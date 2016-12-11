@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>六角西餐廳</title>
+     <meta name="description" content="六角西餐廳!!!">
+     <link rel="shortcut icon" href="images/gallery_2.ico">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBa4Xy-s-pmOlYfTgDqDuQrv6fWJ83pbk8"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tinyMap.js"></script>
+    <script type="text/javascript" src="js/tinymapforindex.js"></script>
+    <script type="text/javascript" src="js/all.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="Banner">
+                <div class="top">
+                    <h1><img class="logo" src="images/logo_w(null).svg" alt=""></h1>
+                    <ul class="nav">
+                        <li> <a href="#" class="ToFeature">特色</a></li>
+                        <li> <a href="#" class="ToChief">主廚</a></li>
+                        <li> <a href="#" class="ToMap">地圖</a></li>
+                    </ul>
+                    <a href="#" class="showmenu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                </div>
+                <div class="recommend">
+                    <h2><span class="onbite">咬一口</span><span>就無法忘懷的漢堡</span></h2>
+                    <span>七夕絕對無法錯過的好滋味</span>
+                    <span><i class="fa fa-cutlery" aria-hidden="true"></i>六角大漢堡<i class="fa fa-cutlery" aria-hidden="true"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="feature">
+            	<div>
+                <span>客人總是在詢問</span>
+                <span>這麼好吃的秘訣是什麼</span>
+                </div>
+                <ul>
+                    <li>
+                        <img src="images/feature_1.png" alt="">
+                        <span>台灣本土蔬菜</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla est perferendis expedita, sed a quaerat quis facilis dolor laborum id accusantium sit neque quas qui, officia reprehenderit eum voluptas! Placeat quos ab voluptas quod, aliquam molestias</p>
+                    </li>
+                    <li>
+                        <img src="images/feature_2.png" alt="">
+                        <span>專業米其林廚師</span>
+                        <p>architecto, minima. Molestiae sint, accusantium ipsa officia culpa doloribus, hic assumenda autem illum corporis impedit officiis animi aut! Minus cupiditate, soluta itaque. Quae unde doloremque
+                        </p>
+                    </li>
+                    <li>
+                        <img src="images/feature_3.png" alt="">
+                        <span>對於專業不能退讓</span>
+                        <p>adipisci nemo ex, cupiditate recusandae magni qui dolores odio saepe! Ea, cumque, praesentium ratione tempore placeat consequatur maxime incidunt quasi nobis suscipit nulla cum velit fuga quia error? Est quidem recusandae incidunt distinctio, voluptatem tenetur possimus illum, deserunt vero?
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="chief">
+                <div class="chief-img" style="background-image: url(images/main_chef_brown.png);">
+                
+                </div>
+                <div class="chief-today">
+                    <span class="chief-name">今日主廚<span>:</span>金森、梅在帕</span>
+                    <span class="chief-name">Today Chief<span>:</span>Plum in Shock</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident culpa atque eos ullam. At molestias ea rem, repudiandae omnis, delectus eaque asperiores sequi quaerat debitis obcaecati fugit nisi numquam quod ullam fuga dolorem inventore veniam cupiditate voluptatibus consectetur temporibus id voluptatum. Hic accusantium delectus, perspiciatis assumenda dignissimos incidunt ab alias!
+                    </p>
+                </div>
+            </div>
+            <div class="avatar">
+                <div>聽聽別人的感想</div>
+                <ul>
+                    <li>
+                        <img src="images/avatar_1.png" alt="">
+                        <div class="impression">
+                            <span>高雄吃一口</span>
+                            <span>自從吃了這家餐廳後，我口水流了一個多月沒停，下次不要再被我遇到，我然我一定連他們的桌子一起啃下去。</span>
+                            <span>--產品經理</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/avatar_2.png" alt="">
+                        <div class="impression">
+                            <span>廟口小霸王</span>
+                            <span>自從吃了這家餐廳後，我口水流了一個多月沒停，下次不要再被我遇到，我然我一定連他們的桌子一起啃下去。
+            			</span>
+                            <span>--金身道士</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/avatar_3.png" alt="">
+                        <div class="impression">
+                            <span>春天來了</span>
+                            <span>自從吃了這家餐廳後，我口水流了一個多月沒停，下次不要再被我遇到，我然我一定連他們的桌子一起啃下去。</span>
+                            <span>--美麗萬分</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="map">
+                <div class="map-title"><span>我們的位置不太夠坐</span>
+                    <span>要不要先定位呢？</span></div>
+                <div class="tinymap"></div>
+                <form action="">
+                    <span>姓名</span>
+                    <input type="text">
+                    <span>電話</span>
+                    <input type="text">
+                    <span>信箱</span>
+                    <input type="text">
+                    <span>人數</span>
+                    <input type="text">
+                    <span>是否需要素食</span>
+                    <span>
+                        是
+                        <input type="radio" name="vegetable" value="need">
+                        否
+                        <input type="radio" name="vegetable" value="notneed">
+                    </span>
+                    <div class="sent-form">
+                        <a href="#" class="cancel">取消</a>
+                        <a href="#" class="sent">送出</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="about">
+                <span>關於六角西餐廳</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique reiciendis earum, consectetur beatae repellendus doloribus voluptates quas est ducimus obcaecati incidunt quos quo, illo in.</p>
+            </div>
+            <div class="contact">
+                <span>聯絡方式</span>
+                <ul>
+                    <li>高雄市中正五路到底</li>
+                    <li>+886 886 886</li>
+                    <li><a href="#">service@hexschool.com</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <img src="images/logo_l(null).svg" alt="">
+                <ul>
+                    <li><a href="#"><i class="fa fa-google-plus-square google" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter-square twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook-square facebook" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
