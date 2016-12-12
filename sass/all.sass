@@ -385,8 +385,9 @@ a
 		width: 28.33333%
 		padding-left: 5%
 		@include rwd($phone)
-			width: 95%
+			width: 90%
 			margin-bottom: 30px
+			padding-right: 5%
 		span
 			font-size: 24px
 		p 
@@ -719,6 +720,8 @@ a
 		width: 50%
 		float: left
 		line-height: 20px
+		@include rwd($phone)
+			width: 100%
 		span 
 			font-size: 18px
 
@@ -726,6 +729,8 @@ a
 		width: 48%
 		float: right
 		margin-left: 2%
+		@include rwd($phone)
+			width: 100%
 		.register-data
 			background: #fff
 			height: 32px
