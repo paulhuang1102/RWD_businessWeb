@@ -617,11 +617,16 @@ a {
           color: #F75000; }
 
 .login {
-  width: 35%;
+  width: 360px;
   margin: 0 auto;
   padding-top: 5%;
   color: #3D1101;
   padding-bottom: 5%; }
+  @media (max-width: 414px) {
+    .login {
+      width: 90%;
+      padding-left: 5%;
+      padding-right: 5%; } }
   .login > div {
     text-align: center;
     margin-bottom: 40px; }
@@ -638,6 +643,10 @@ a {
     border: 1px solid #d0d0d0;
     border-top: 3px solid #F75000;
     position: relative; }
+    @media (max-width: 414px) {
+      .login form {
+        padding-left: 0;
+        padding-right: 0; } }
     .login form span {
       width: 100%;
       float: left;
@@ -700,6 +709,9 @@ a {
   padding-top: 5%;
   color: #3D1101;
   padding-bottom: 5%; }
+  @media (max-width: 414px) {
+    .register {
+      width: 100%; } }
   .register > div {
     text-align: center;
     margin-bottom: 40px; }
