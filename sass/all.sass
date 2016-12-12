@@ -596,11 +596,15 @@ a
 					left: 25%
 					color: #F75000
 .login
-	width: 35%
+	width: 360px
 	margin: 0 auto
 	padding-top: 5%
 	color: #3D1101
 	padding-bottom: 5%
+	@include rwd($phone)
+		width: 90%
+		padding-left: 5%
+		padding-right: 5%
 	> div 
 		text-align: center
 		margin-bottom: 40px
@@ -617,6 +621,9 @@ a
 		border: 1px solid #d0d0d0
 		border-top: 3px solid #F75000
 		position: relative
+		@include rwd($phone)
+			padding-left: 0
+			padding-right: 0
 		span
 			width: 100%
 			float: left
@@ -681,8 +688,8 @@ a
 	padding-top: 5%
 	color: #3D1101
 	padding-bottom: 5%
-		@include rwd($phone)
-			width: 100%
+	@include rwd($phone)
+		width: 100%
 	> div 
 		text-align: center
 		margin-bottom: 40px
@@ -719,7 +726,6 @@ a
 		width: 48%
 		float: right
 		margin-left: 2%
-
 		.register-data
 			background: #fff
 			height: 32px
