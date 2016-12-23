@@ -403,9 +403,8 @@ a {
     padding-left: 5%; }
     @media (max-width: 414px) {
       .footer .about {
-        width: 90%;
-        margin-bottom: 30px;
-        padding-right: 5%; } }
+        width: 95%;
+        margin-bottom: 30px; } }
     .footer .about span {
       font-size: 24px; }
     .footer .about p {
@@ -742,18 +741,12 @@ a {
     width: 50%;
     float: left;
     line-height: 20px; }
-    @media (max-width: 414px) {
-      .register .rule {
-        width: 100%; } }
     .register .rule span {
       font-size: 18px; }
   .register .register-form {
     width: 48%;
     float: right;
     margin-left: 2%; }
-    @media (max-width: 414px) {
-      .register .register-form {
-        width: 100%; } }
     .register .register-form .register-data {
       background: #fff;
       height: 32px;
